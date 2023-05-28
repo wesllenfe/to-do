@@ -33,6 +33,8 @@ const saveTodo = (Text) =>{
   todo.appendChild(deleteBtn)
 
   todoList.appendChild(todo)
+  todoInput.value = "";
+  todoInput.focus()
 }
 
 
